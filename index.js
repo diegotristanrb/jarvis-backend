@@ -5,10 +5,10 @@ const PORT = process.env.PORT || 3000;
 
 // Ruta base
 app.get("/", (req, res) => {
-  res.send("JARVIS ONLINE");
+  res.send("JARVIS ONLINE V2");
 });
 
-// Ruta chat (PRUEBA)
+// Ruta chat
 app.get("/chat", (req, res) => {
   const mensaje = req.query.mensaje || "";
 
